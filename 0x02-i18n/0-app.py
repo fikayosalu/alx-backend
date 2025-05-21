@@ -12,6 +12,3 @@ app = Flask(__name__)
 def index():
     """Render the index page."""
     return render_template('0-index.html')
-
-
-app.run()
